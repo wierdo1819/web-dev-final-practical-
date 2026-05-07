@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.card {
+  width: 420px;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.links {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.links h2 {
+  margin-bottom: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* LIGHT THEME */
+
+.light {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.light .card {
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.light button {
+  background: #111827;
+  color: white;
+}
+
+.light .links a {
+  color: #2563eb;
+}
+
+/* DARK THEME */
+
+.dark {
+  background-color: #111827;
+  color: white;
+}
+
+.dark .card {
+  background: #1f2937;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.dark button {
+  background: white;
+  color: black;
+}
+
+.dark .links a {
+  color: #60a5fa;
+}
